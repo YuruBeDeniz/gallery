@@ -5,3 +5,12 @@
 body {
   @apply bg-black text-white;
 }
+
+:root {
+  --font-sans: 'Inter', sans-serif;
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+  
