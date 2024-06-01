@@ -30,7 +30,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`font-sans ${inter.variable} flex flex-col gap-4`}>
+      <body className={`font-sans ${inter.variable} flex flex-col gap-5`}>
         <TopNav />
         {children}
       </body>
